@@ -108,10 +108,6 @@
 		<div class="resultFront"></div>
 		<div class="resultBack"></div>
 	</div>
-	<div class="types"></div>
-	<div class="forms"></div>
-	<div class="moves"></div>
-	<div class="abilities"></div>
 	<div class="stats">
 		{#if stats}
 			<Grid>
@@ -124,6 +120,11 @@
 			</Grid>
 		{/if}
 	</div>
+
+	<div class="types"></div>
+	<div class="forms"></div>
+	<div class="moves"></div>
+	<div class="abilities"></div>
 </div>
 
 <footer>
@@ -131,6 +132,9 @@
 </footer>
 
 <style>
+	.stats {
+		font-size: 25px;
+	}
 	.header-container {
 		padding: 10px;
 	}
